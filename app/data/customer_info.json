@@ -1,0 +1,14 @@
+"FlightInfo": {
+     "Origin": "JFK",
+     "returnDate": "11/5/2016",
+     "travelDate": "10/31/2016",
+     "Destination": "LAS",
+     "flightNumber": "211"
+   },
+   "PassengerProfile": {
+     "gender": "Male",
+     "lastName": "Vanzyl",
+     "stateOfResidence": "NY",
+     "frequentFlierStatus": "TrueBlue Mosaics"
+   }
+ }
