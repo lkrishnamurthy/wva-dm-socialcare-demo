@@ -37,3 +37,4 @@ config/twitter_config.js
 config/agent_bot_config.js
 
 .DS_Store
+node_modules

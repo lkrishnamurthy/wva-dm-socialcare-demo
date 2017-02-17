@@ -10,7 +10,7 @@ var locomotive = require('locomotive');
 var Twitter = require('../../twit/lib/twitter');
 var twitterTokens = require('../../settings/twitter_config');
 var conversationUtils = require('../utils/wvaUtils');
-require('dotenv').load();
+//require('dotenv').load();
 var Controller = locomotive.Controller;
 var apiController = new Controller();
 
