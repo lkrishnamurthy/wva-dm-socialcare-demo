@@ -1,11 +1,11 @@
-** Twitter DM Social Care Demo Bot Application
+# Twitter DM Social Care Demo Bot Application
 
 This demo application uses Twitter DM and Watson Virtual Agent to illustrate a customer support use-case.  The demo supports answering common questions such as How do i pay my bill, what is the nearest location, what is the contact information as well as a hand-off to a live agent that can then respond to the user via DM. The live agent portion is demonstrated using a Slack team and channel. In reality, the Slack channel can be replaced with a third-party or a social media company application supporting its enterprise.
 
-*** Pre-requisites
+# Pre-requisites
 
-* IBM Bluemix credentials
-* Cloud Foundry CLI Libraries
+* IBM Bluemix id & credentials 
+* Cloud Foundry CLI Libraries 
 * Watson Virtual Agent(WVA) is setup and configured with pre-defined intents and responses.
 * A Slack Team and Channel setup
 * Incoming and outgoing web hooks for Slack integration
@@ -13,7 +13,7 @@ This demo application uses Twitter DM and Watson Virtual Agent to illustrate a c
 * A twitter application that has read and write access to direct messages
 * Access to Twitter DM APIs (Done by Twitter team based on the application and twitter handle)
 
-** Steps
+# Steps
 
 1. Integrating WVA to DM Bot
 
@@ -53,6 +53,6 @@ This demo application uses Twitter DM and Watson Virtual Agent to illustrate a c
 
 12. When live agent interaction is complete, you can type in "STOP" to end the agent side of conversation
 
-*** Additional Resources
+# Additional Resources
 
 1. To learn more about setting up WVA along with its sample application use this github repo (https://github.com/dsayers/virtual-agent-app).
